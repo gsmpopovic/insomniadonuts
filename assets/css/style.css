@@ -1,0 +1,314 @@
+/*
+The color palette: 
+
+#1F130F BLACK 
+#C83C67
+#81223C
+#F080A3
+#2E378A
+#D0C7EC
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to right, #1A130C, #401114, #81233C, #4244A7, #172258);
+    font-family: 'Poppins', sans-serif;
+    color: #ffe2ff;
+    font-size: medium;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* NAVIGATION BAR */
+
+nav {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0px 50px;
+    font-size: x-large;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffe2ff;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* STYLING FOR THE  STRAPLINES */
+
+.strapcontainer {
+    width: 90%;
+    height: 80%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(./assets/src/sign.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: xx-large;
+    border-radius: 50px;
+}
+
+.main-strapline {
+    margin: 60px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.second-strapline {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+    font-size: 70px;
+}
+
+
+/* ---------------------------------------------------------------------------------*/
+
+
+/* STYLING FOR THE ABOUT SECTION OF WEBPAGE */
+
+.about-section {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width: 45%;
+    font-weight: bold;
+    line-height: 220%;
+    text-align: justify;
+    letter-spacing: 0.9px;
+    margin: auto;
+}
+
+.right-box {
+    width: 40%;
+    margin: auto 7%;
+}
+
+.grid-image1 {
+    height: 200px;
+    width: 50%;
+    background-image: url(./assets/src/bangkok.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.grid-image2 {
+    height: 200px;
+    width: 50%;
+    background-image: url(./assets/src/coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.grid-image3 {
+    height: 200px;
+    width: 50%;
+    background-image: url(./assets/src/donutsA.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.grid-image4 {
+    height: 200px;
+    width: 50%;
+    background-image: url(./assets/src/coffee2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.top-row,
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ---------------------------------------------------------------------------------*/
+
+
+/* STYLING FOR THE DONUTS SECTION OF WEBPAGE */
+
+.donuts-section {
+    width: 100vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-one,
+.row-two,
+.row-three {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item {
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+#grid-item1 {
+    background-image: url(./assets/src/d1.jpg);
+}
+
+#grid-item2 {
+    background-image: url(./assets/src/d2.jpg);
+}
+
+#grid-item3 {
+    background-image: url(./assets/src/d3.jpg);
+}
+
+#grid-item4 {
+    background-image: url(./assets/src/d4.jpg);
+}
+
+#grid-item5 {
+    background-image: url(./assets/src/d5.jpg);
+}
+
+#grid-item6 {
+    background-image: url(./assets/src/d6.jpg);
+}
+
+#grid-item7 {
+    background-image: url(./assets/src/d7.jpg);
+}
+
+#grid-item8 {
+    background-image: url(./assets/src/d8.jpg);
+}
+
+#grid-item9 {
+    background-image: url(./assets/src/d9.jpg);
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* STYLING FOR THE LOCATIONS SECTION OF THE WEBPAGE */
+
+.stores-section {
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.stores-container {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.stores-div {
+    width: 30%;
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+    padding-top: 35px;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+footer {
+    padding: auto;
+    height: 40vh;
+    width: 100vw;
+    background-color: #ffe2ff;
+    text-align: center;
+    color: #81233C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.contact-title {
+    margin: 15px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.email {
+    size: 200%;
+    margin: 5px 5px;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.social-media-icon {
+    margin: 0 7.5px;
+}
+
+.copyright {
+    margin: 10px 10px;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+.grid-item:hover {
+    opacity: 0.75;
+}
