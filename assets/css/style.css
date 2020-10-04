@@ -65,7 +65,7 @@ nav ul li a {
     height: 80%;
     margin: auto auto;
     text-align: center;
-    background-image: url(./assets/src/sign.jpg);
+    background-image: url(../src/sign.jpg);
     background-size: cover;
     background-position: center;
     font-size: xx-large;
@@ -128,7 +128,7 @@ nav ul li a {
 .grid-image1 {
     height: 200px;
     width: 50%;
-    background-image: url(./assets/src/bangkok.jpg);
+    background-image: url(../src/bangkok.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -137,7 +137,7 @@ nav ul li a {
 .grid-image2 {
     height: 200px;
     width: 50%;
-    background-image: url(./assets/src/coffee.jpg);
+    background-image: url(../src/coffee.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -146,7 +146,7 @@ nav ul li a {
 .grid-image3 {
     height: 200px;
     width: 50%;
-    background-image: url(./assets/src/donutsA.jpg);
+    background-image: url(../src/donutsA.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -155,7 +155,7 @@ nav ul li a {
 .grid-image4 {
     height: 200px;
     width: 50%;
-    background-image: url(./assets/src/coffee2.jpg);
+    background-image: url(../src/coffee2.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -201,39 +201,39 @@ nav ul li a {
 }
 
 #grid-item1 {
-    background-image: url(./assets/src/d1.jpg);
+    background-image: url(../src/d1.jpg);
 }
 
 #grid-item2 {
-    background-image: url(./assets/src/d2.jpg);
+    background-image: url(../src/d2.jpg);
 }
 
 #grid-item3 {
-    background-image: url(./assets/src/d3.jpg);
+    background-image: url(../src/d3.jpg);
 }
 
 #grid-item4 {
-    background-image: url(./assets/src/d4.jpg);
+    background-image: url(../src/d4.jpg);
 }
 
 #grid-item5 {
-    background-image: url(./assets/src/d5.jpg);
+    background-image: url(../src/d5.jpg);
 }
 
 #grid-item6 {
-    background-image: url(./assets/src/d6.jpg);
+    background-image: url(../src/d6.jpg);
 }
 
 #grid-item7 {
-    background-image: url(./assets/src/d7.jpg);
+    background-image: url(../src/d7.jpg);
 }
 
 #grid-item8 {
-    background-image: url(./assets/src/d8.jpg);
+    background-image: url(../src/d8.jpg);
 }
 
 #grid-item9 {
-    background-image: url(./assets/src/d9.jpg);
+    background-image: url(../src/d9.jpg);
 }
 
 
